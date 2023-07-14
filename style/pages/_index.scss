@@ -1,0 +1,33 @@
+.nav {
+  color: #D1D1D1;
+  padding-top: 40px;
+}
+.banner {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.intro {
+  background-image: url('./../image/background-img.png');
+  background-size: contain;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.about {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.contact {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  &-icon {
+    width: 162px;
+  }
+}
+.project {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
