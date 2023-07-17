@@ -1,6 +1,27 @@
 .nav {
   color: #D1D1D1;
-  padding-top: 40px;
+  padding-top: 30px;
+  a {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    &:hover::before {
+      transform: translateX(0);
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 3px;
+      background-color: #00FFA3;
+      transform: translateX(-100%);
+      transition: transform .3s ease;
+    }
+  }
 }
 .banner {
   padding-top: 72px;
@@ -19,8 +40,13 @@
 .contact {
   padding-top: 96px;
   padding-bottom: 96px;
-  &-icon {
-    width: 162px;
+  &-link {
+    border-radius: 40px;
+    overflow: hidden;
+    transition: box-shadow .15s ease;
+    &:hover {
+      box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
   }
 }
 .project {
