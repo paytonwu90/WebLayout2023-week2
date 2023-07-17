@@ -1,0 +1,6 @@
+.hover\:flip {
+  transition: transform .3s ease;
+  &:hover {
+    transform: rotateY(180deg);
+  }
+}

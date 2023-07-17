@@ -311,6 +311,13 @@ h2 {
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
+.hover\:flip {
+  transition: transform 0.3s ease;
+}
+.hover\:flip:hover {
+  transform: rotateY(180deg);
+}
+
 .nav {
   color: #D1D1D1;
   padding-top: 30px;
