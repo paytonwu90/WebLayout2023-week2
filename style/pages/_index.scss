@@ -1,10 +1,10 @@
 .nav {
   color: #D1D1D1;
-  padding-top: 30px;
+  padding-top: 40px;
   a {
     position: relative;
     display: block;
-    padding-top: 10px;
+    //padding-top: 0px;
     padding-bottom: 10px;
     overflow: hidden;
     &:hover::before {
@@ -41,6 +41,7 @@
   padding-top: 96px;
   padding-bottom: 96px;
   &-link {
+    display: block;
     border-radius: 40px;
     overflow: hidden;
     transition: box-shadow .15s ease;

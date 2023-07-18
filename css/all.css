@@ -320,12 +320,11 @@ h2 {
 
 .nav {
   color: #D1D1D1;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .nav a {
   position: relative;
   display: block;
-  padding-top: 10px;
   padding-bottom: 10px;
   overflow: hidden;
 }
@@ -366,6 +365,7 @@ h2 {
   padding-bottom: 96px;
 }
 .contact-link {
+  display: block;
   border-radius: 40px;
   overflow: hidden;
   transition: box-shadow 0.15s ease;
